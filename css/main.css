@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(26deg, rgb(24, 43, 233),34%, rgb(255, 0, 238));
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+}
+
+.w50{
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+}
+
+.box{
+    display: flex;
+    width: 930px;
+}
+
+.form-box{
+    background-color: rgba(256, 255, 255, 0.4);
+    backdrop-filter: blur(40px);
+    padding: 30px 40px;
+    width: 50%;
+    border-radius: 0 20px 0 30px;
+}
+
+.form-box h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.form-box p{
+    font-weight: bold;
+    color: #3d3d3d;
+}
+
+.form-box p a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.form-box form{
+    margin: 20px 0;
+}
+
+.form .input-group{
+    margin-bottom: 15px;
+}
+
+form .input-group label{
+    color: #3d3d3d;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form .input-group input{
+    width: 100%;
+    height: 47px;
+    background-color: rgba(256, 255, 255, 0.32);
+    border-radius: 25px;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 15px;
+    font-size: 15px;
+    color: #616161;
+    transition: all 0.4s ease;
+}
+
+form .input-group input:focus{
+    border-color: blue;
+}
+
+form .input-group button{
+    width: 100%;
+    height: 47px;
+    background: blue;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
